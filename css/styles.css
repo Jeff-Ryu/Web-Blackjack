@@ -1,0 +1,122 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html,
+body {
+    overflow-x: clip;
+    overflow-y: clip;
+}
+
+/* Fonts */
+.chakra-petch-semibold {
+    font-family: "Chakra Petch", sans-serif;
+}
+.consolas {
+    font-family: Consolas, monospace;
+}
+
+button {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+main {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 83vh;
+}
+#ui {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 17vh;
+}
+
+/* Card */
+.card {
+    display: flex;
+    color: cyan;
+    font-size: 10rem;
+    font-weight: 100;
+
+    transition: all 0.7s;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+#deck:hover {
+    transform: scale(1.1) rotateY(180deg);
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#house-row {
+    margin: 10px 10px;
+}
+
+/* UI Section */
+#ui-row {
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.text {
+    color: cyan;
+    font-size: 3rem;
+}
+#money-text {
+    margin-left: 0px;
+}
+#stats-text {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.btn {
+    background-color: black;
+    color: cyan;
+    width: 175px;
+    height: 100px;
+    font-size: 3.5rem;
+    border: 4px solid cyan;
+
+    transition: all 0.7s;
+}
+.btn:hover {
+    background-color: rgb(0, 220, 220);
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#btn-stand, #btn-reset {
+    font-size: 3.3rem;
+    width: 200px;
+}
+
+/* For Mobile */
+@media (max-width: 767px) {
+    
+}

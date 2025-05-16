@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- CSS / JS -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="js/script.js"></script>
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+		<title>Blackjack</title>
+	</head>
+	<body class="chakra-petch-semibold">
+		<main>
+			<section id="game">
+				<div id="house-row" class="row"></div>
+				<div id="mid-row" class="row"></div>
+				<div id="player-row" class="row"></div>
+			</section>
+			<div id="stats-row" class="row">
+				<div id="stats-text" class="text"></div>
+			</div>
+			<section id="ui">
+				<div id="ui-row" class="row">
+					<button id="btn-reset" class="btn" onclick="reset()">RESET</button>
+					<button id="btn-hit" class="btn" onclick="hit()">HIT</button>
+					<button id="btn-stand" class="btn" onclick="stand()">STAND</button>					
+					<div id="money-text" class="text">$7250</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
